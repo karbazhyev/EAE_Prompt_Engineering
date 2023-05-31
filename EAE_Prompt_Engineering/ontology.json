@@ -1,0 +1,132 @@
+[
+    {
+        "event_name": "infect",
+        "argument_role": "Place",
+        "role_description": "Place where the infection has taken place",
+        "example_sentence": "They got sick in [Amsterdam]"
+    },
+    {
+        "event_name": "infect",
+        "argument_role": "Time",
+        "role_description": "The time where the infection occurred",
+        "example_sentence": "He contracted covid-19 [last month]"
+    },
+    {
+        "event_name": "infect",
+        "argument_role": "Host",
+        "role_description": "The host and destination for the invading disease/pathogen ",
+        "example_sentence": "[Healthcare workers] are the risk getting sick"
+    },
+    {
+        "event_name": "infect",
+        "argument_role": "Disease",
+        "role_description": "The disease that the host was infected with",
+        "example_sentence": "Most people who went to the concert caught [covid]"
+    },
+    {
+        "event_name": "infect",
+        "argument_role": "Source",
+        "role_description": "The source and origin of the spread that has taken place",
+        "example_sentence": "in most cases, [one sick individual] can infect hundreds of people in their proximity"
+    },
+    {
+        "event_name": "spread",
+        "argument_role": "Disease",
+        "role_description": "The disease was that was spread",
+        "example_sentence": "Lack of water filtration systems contributed to the spread of [ebola] in public pools"
+    },
+    {
+        "event_name": "spread",
+        "argument_role": "Place",
+        "role_description": "The location where the spearding took place",
+        "example_sentence": "Infections spread rapidly at [airports] regardless of preventive actions"
+    },    {
+        "event_name": "spread",
+        "argument_role": "Source",
+        "role_description": "The source and origin of the spread that has taken place",
+        "example_sentence": "Infections spread rapidly at airports regardless of preventitive actions because of high probability of [untested passengers]"
+    },
+    {
+        "event_name": "symptom",
+        "argument_role": "Name",
+        "role_description": "Name of the symptom",
+        "example_sentence": "Most patients experience [shortness of breath] during the course of the disease"
+    },
+    {
+        "event_name": "symptom",
+        "argument_role": "Patient",
+        "role_description": "The patient whom the symptoms have appeared in",
+        "example_sentence": "[They] came to the hospital with a fever"
+    },
+    {
+        "event_name": "prevent",
+        "argument_role": "Disease",
+        "role_description": "The disease or infection that is trying to be prevented",
+        "example_sentence": "The doctor suggested that taking vitamin-d reduces the risk of contracting [covid]"
+    },
+    {
+        "event_name": "prevent",
+        "argument_role": "Action",
+        "role_description": "The action that is taken by individuals to prevent the infection",
+        "example_sentence": "The startup has begun to [hold meetings outside] to prevent the employees from catching the disease"
+    },
+    {
+        "event_name": "prevent",
+        "argument_role": "Actant",
+        "role_description": "The individuals that has taken the action to prevent the infection",
+        "example_sentence": "[The CEO] ordered his employees to work from since the pandemic started"
+    },
+    {
+        "event_name": "control",
+        "argument_role": "Action",
+        "role_description": "The action(s) that were taken to impede the spread of the pandemic",
+        "example_sentence": "The state of Oregon has asked all essential workers to [wear masks] while they are at work"
+    },
+    {
+        "event_name": "control",
+        "argument_role": "Actant",
+        "role_description": "The group or entity responsible for taking the action(s) to impede the spread of the pandemic",
+        "example_sentence": "[The city of LA] extended the lockdown for another two months as the infection rate continues to rise"
+    },
+    {
+        "event_name": "cure",
+        "argument_role": "Treatment",
+        "role_description": "The treatment that was used to cure the disease",
+        "example_sentence": "Although it is known as a horse tranquilizer, some people swear that [Ivermectin] cured their covid"
+    },
+    {
+        "event_name": "cure",
+        "argument_role": "Effectiveness",
+        "role_description": "The effectiveness of a treatmemt on the disease",
+        "example_sentence": "The proposed surgery in these cases seems to solve the problem for [%90 of the patients]"
+    },
+    {
+        "event_name": "cure",
+        "argument_role": "Disease",
+        "role_description": "The disease that was cured",
+        "example_sentence": "Most young patients infected with [covid-19] are completely cured after going through the course of the disease"
+    },
+    {
+        "event_name": "death",
+        "argument_role": "Time",
+        "role_description": "The time when the death took place",
+        "example_sentence": "Covid killed my grandfather [last night]"
+    },    {
+        "event_name": "death",
+        "argument_role": "Place",
+        "role_description": "The place that the death took place",
+        "example_sentence": "He died from covid in [his apartment] last night"
+    },
+    {
+        "event_name": "death",
+        "argument_role": "Person",
+        "role_description": "The individual(s) that have died",
+        "example_sentence": "[He] died from covid in his apartment last night"
+    },
+    {
+        "event_name": "death",
+        "argument_role": "Cause",
+        "role_description": "The cause of death",
+        "example_sentence": "He died from [covid] in his apartment last night"
+    }
+]

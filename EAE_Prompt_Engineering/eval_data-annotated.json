@@ -1,0 +1,109 @@
+[
+	{
+        "input_text":"Polite request You may not believe the COVID-19 is serious, or even real. That's up to you. But please respect the feelings of people on this platform who've had relatives &amp; loved ones die of it. It's a truly terrifying disease that has killed tens of thousands of people. Thanks.",
+		"event_name": "death",
+		"event_trigger": "killed",
+		"arguments": {
+			"Person": "tens of thousands of people",
+			"Cause": "COVID-19"
+		}
+	},	
+	{
+        "input_text":"(user) (user) So you actually believe only 11k Americans have died from Covid. You screenshot your proof from the CDC. I correct you from the same web sight and you tell me Im wrong. Its obvious you cant read stats. Go back to school",
+		"event_name": "death",
+		"event_trigger": "died",
+		"arguments": {
+			"Person": "11k Americans",
+			"Cause": "Covid"
+		}
+	},
+	{
+        "input_text":"Anosmia is the commonest symptom of COVID-19  - can be the only symptom - those with it need COVID testing   Our own Prof Hopkins &amp; (user) led much of the research &amp; was discussed (user) COVID-19 Grand Round  Gd summary by (user)  (url)",
+		"event_name": "infect",
+		"event_trigger": "cases",
+		"arguments": {
+			"Name": "Anosmia",
+			"Patient": "those with it"
+		}
+	},
+	{
+        "input_text":"(user) (user) (user) (user) How many of those deaths are actually from Covid 19?",
+		"event_name": "death",
+		"event_trigger": "deaths",
+		"arguments": {
+			"Cause": "Covid 19"
+		}
+	},
+	{
+        "input_text":"Five members of the Canadian Armed Forces working in care homes in Ontario and Quebec have tested positive for #(COVID). Vanessa Lee has the details: (url) (url)",
+		"event_name": "infect",
+		"event_trigger": "positive",
+		"arguments": {
+			"Place": ["Ontario","Quebec"],
+			"Host": "Five members of the Canadian Armed Forces",
+			"Disease": "COVID"
+		}
+	},
+	{
+        "input_text":"Itll get reported as a #(COVID) death though. He tested positive for the virus #(COVID)",
+		"event_name": "death",
+		"event_trigger": "death",
+		"arguments": {
+			"Person": "He",
+			"Cause": "COVID"
+		}
+	},
+	{
+        "input_text":"USA: Risk of dying of Covid-19 versus other causes (url)",
+		"event_name": "death",
+		"event_trigger": "dying",
+		"arguments": {
+			"Place": "USA",
+			"Cause": "Covid-19"
+		}
+	},
+	{
+        "input_text":"(user) you let Robert Patillo say there's no treatment for COVID-19 WTF is your problem? You don't even mention this cheap cure that is being used across the world with great success? Terrible job totally unprepared!! Are you saying (user) and her guests are wrong?",
+		"event_name": "cure",
+		"event_trigger": "cure",
+		"arguments": {
+			"Treatment": "this cheap cure",
+			"Effectiveness": "great success",
+			"Disease": "COVID-19"
+		}
+	},
+	{
+        "input_text":"We know China lied about the initial spread of #(COVID), putting people all across the world at risk. They now need to come clean about its origins. (url)",
+		"event_name": "spread",
+		"event_trigger": "spread",
+		"arguments": {
+			"Disease": "COVID",
+			"Place": "all across the world"
+		}
+	},
+	{
+        "input_text":"Self quarantining &amp; shutting down businesses was done to FLATTEN the curve not to eliminate COVID. We needed time to  prepare for increased hospitalization &amp; obtain PPE. Many in the media are acting like we cant open up until COVID is eliminated &amp; that may never happen.,",
+		"event_name": "control",
+		"event_trigger": "FLATTEN",
+		"arguments": {
+			"Action": ["Self quarantining","shutting down businesses"]
+		}
+	},
+	{
+        "input_text":"Where to worry about catching Covid-19, and where not to  (url)",
+		"event_name": "infect",
+		"event_trigger": "catching",
+		"arguments": {
+			"Disease": "Covid-19"
+		}
+	},
+	{
+        "input_text":"I got COVID-19 can you help me?",
+		"event_name": "infect",
+		"event_trigger": "got",
+		"arguments": {
+			"Host": "I",
+			"Disease": "COVID-19"
+		}
+	}
+]
